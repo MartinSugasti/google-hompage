@@ -1,0 +1,26 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.form .search-box {
+  min-width: 500px;
+  height: 25px;
+  border-radius: 25px;
+  border: 1px solid #dfe1e5;
+}
+
+.form .search-box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.form .search-box:focus {
+  outline-width: 0;
+}
