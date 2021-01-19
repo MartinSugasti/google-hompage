@@ -6,15 +6,57 @@
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div class="logo">
-      <img src="images/google_logo.png" alt="Google logo">
-    </div>
+    <header>
+      <ul>
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Imágenes</a></li>
+        <li><a href="#" class="applications-link"><img src="images/applications-icon.png" alt="Applications icon" class="applications-image"></a></li>
+        <li><a href="#" class="profile-logo">M</a></li>
+      </ul>
+    </header>
 
-    <div class="form">
-      <form>
-        <input type="text" class="search-box" name="search-box">
-      </form>
-    </div>
+    <main>
+      <div class="logo">
+        <img src="images/google_logo.png" alt="Google logo">
+      </div>
 
+      <div class="form">
+        <form>
+          <input type="text" class="search-box" name="search-box">
+          <div class="buttons">
+            <input type="button" class="button search-button" name="search-button" value="Buscar en Google">
+            <input type="button" class="button lucky-button" name="lucky-button" value="Me siento con suerte">
+          </div>
+        </form>
+      </div>
+
+      <div class="languages">
+        <p class="paragraph">Ofrecido por Google en:
+          <a href="#" class="english-link">English</a>
+          <a href="#" class="spanish-link">Español (Latinoamérica)</a>
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <div class="upper-footer">
+        <p>Uruguay</p>
+      </div>
+
+      <div class="bottom-footer">
+        <ul class="left-list">
+          <li><a href="#">Publicidad</a></li>
+          <li><a href="#">Negocios</a></li>
+          <li><a href="#">Sobre Google</a></li>
+          <li><a href="#">Cómo funciona la Búsqueda</a></li>
+        </ul>
+
+        <ul class="right-list">
+          <li><a href="#">Privacidad</a></li>
+          <li><a href="#">Condiciones</a></li>
+          <li><a href="#">Preferencias</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
