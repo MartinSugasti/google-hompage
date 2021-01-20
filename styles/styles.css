@@ -20,7 +20,7 @@ body {
   height: 30px;
   border-radius: 25px;
   border: 1px solid #dfe1e5;
-  background: url(/images/glass.png) 1%/16px no-repeat, url(/images/micro.png) 98%/14px no-repeat;
+  background: url(/google-hompage/images/glass.png) 1%/16px no-repeat, url(/google-hompage/images/micro.png) 98%/14px no-repeat;
   padding-left: 30px;
   padding-right: 30px;
 }
